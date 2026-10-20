@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 48 48" fill="none">
+  <title>Play</title>
+  <path
+    fill="#F5E6C8"
+    stroke="#3D2412"
+    stroke-linejoin="round"
+    stroke-width="2.2"
+    d="M22 16 L46 32 L22 48 Z"
+  />
+</svg>

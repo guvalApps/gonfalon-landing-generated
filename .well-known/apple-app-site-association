@@ -1,0 +1,37 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "2Y2HS87GRL.com.guvalapps.gonfalon",
+          "2Y2HS87GRL.com.guvalapps.gonfalon.preview",
+          "2Y2HS87GRL.com.guvalapps.gonfalon.dev"
+        ],
+        "components": [
+          {
+            "/": "/.well-known/*",
+            "exclude": true,
+            "comment": "Keep Apple/Google verification files in the browser"
+          },
+          {
+            "/": "*",
+            "comment": "Open Gonfalon for any other path on this host"
+          }
+        ]
+      },
+      {
+        "appID": "2Y2HS87GRL.com.guvalapps.gonfalon",
+        "paths": ["NOT /.well-known/*", "*"]
+      },
+      {
+        "appID": "2Y2HS87GRL.com.guvalapps.gonfalon.preview",
+        "paths": ["NOT /.well-known/*", "*"]
+      },
+      {
+        "appID": "2Y2HS87GRL.com.guvalapps.gonfalon.dev",
+        "paths": ["NOT /.well-known/*", "*"]
+      }
+    ]
+  }
+}
